@@ -10,7 +10,7 @@ client.once('ready', () => {
 
 client.on('message', async (message) => {
   try {
-    const input = message.content.split(' ')
+    const input = message.content.toLowerCase().split(' ')
     const command = input.shift()
     const oneString = input.join('')
     const dashesString = input.join('-')
