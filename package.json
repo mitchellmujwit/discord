@@ -13,5 +13,9 @@
     "axios": "^0.21.1",
     "discord.js": "^13.0.1",
     "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   }
 }
