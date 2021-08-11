@@ -1,7 +1,7 @@
 const fetch = require('node-fetch') 
 const { Client, Intents } = require('discord.js')
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-client.login(process.env.TOKEN)
+client.login('ODczNjc2NDEzMzgxNzc1NDAw.YQ74kQ.r-jtprFuz0syyuqQioix7kw0Vvk')
 
 client.once('ready', () => {
 	console.log('Ready!');
